@@ -19,6 +19,10 @@ public class HelloDate {
 	public static void main(String[] args) {
 		System.out.println(System.getProperty("user.name"));
 		System.out.println(System.getProperty("java.library.path"));
+		int a = 9;
+		long b = a;
+		int c = (int) b;
+		
 	} /*
 	 * Outpuy:(55% match) Hello.
 	 */// ~
