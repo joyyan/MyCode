@@ -3,7 +3,7 @@
  * classpath:chapter1.MathOps
  * YanGJ create at 2014年5月23日 下午2:53:14
  */
-package chapter1;
+package studycode.chapter1;
 
 import java.util.Random;
 

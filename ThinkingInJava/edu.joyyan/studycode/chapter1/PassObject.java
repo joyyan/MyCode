@@ -3,7 +3,7 @@
  * classpath:chapter1.PassObject
  * YanGJ create at 2014年5月23日 下午2:44:12
  */
-package chapter1;
+package studycode.chapter1;
 
 import util.Print;
 
@@ -25,9 +25,9 @@ public class PassObject {
 	public static void main(String[] args) {
 		Letter x = new Letter();
 		x.c = 'a';
-		Print.println("1:x.c = " + x.c);
+		Print.print("1:x.c = " + x.c);
 		f(x);
-		Print.println("2:x.c = " + x.c);
+		Print.print("2:x.c = " + x.c);
      	}
 } /*output: 
  * 1:x.c = a 

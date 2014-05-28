@@ -12,8 +12,8 @@ public class Print {
 	}
 
 	// Print a newline by itself:
-	public static void println(Object obj) {
-		System.out.println(obj);
+	public static void print() {
+		System.out.println();
 	}
 
 	// Print with no line break:

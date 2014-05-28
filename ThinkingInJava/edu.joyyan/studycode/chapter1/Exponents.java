@@ -3,7 +3,7 @@
  * classpath:chapter1.Exponents
  * YanGJ create at 2014年5月23日 下午4:39:44
  */
-package chapter1;
+package studycode.chapter1;
 
 import util.Print;
 

@@ -3,7 +3,7 @@
  * classpath:chapter1.CastingNumbers
  * YanGJ create at 2014年5月26日 下午8:32:43
  */
-package chapter1;
+package studycode.chapter1;
 
 import util.Print;
 

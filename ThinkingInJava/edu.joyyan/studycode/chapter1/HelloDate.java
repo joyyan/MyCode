@@ -1,5 +1,5 @@
 //: object/HelloDate.java
-package chapter1;
+package studycode.chapter1;
 
 /**
  * The first Thingking ing Java example program display a string and today's
