@@ -22,7 +22,6 @@ public class HelloDate {
 		int a = 9;
 		long b = a;
 		int c = (int) b;
-		
 	} /*
 	 * Outpuy:(55% match) Hello.
 	 */// ~
