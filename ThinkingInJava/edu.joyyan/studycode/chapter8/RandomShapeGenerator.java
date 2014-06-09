@@ -20,9 +20,9 @@ public class RandomShapeGenerator {
 		switch (rand.nextInt(3)) {
 		default:
 		case 0:
-			return new Circle();
+			return (Shape) new Circle();
 		case 1:
-			return new Square();
+			return (Shape) new Square();
 		case 2:
 			return new Triangle();
 		}
