@@ -16,6 +16,9 @@ public class PrivateOverride {
 	private void f() {
 		print("private.f()");
 	}
+	private void f3() {
+		
+	}
 	public static void main(String[] args) {
 		PrivateOverride po = new Derived();
 		po.f();
