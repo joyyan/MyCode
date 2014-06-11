@@ -13,7 +13,7 @@ import util.Print;
  * 
  * @author YanGJ create at 2014年6月1日 上午10:26:48
  */
-public class Square implements Shape {
+public class Square extends Shape {
 	/*
 	 * (non-Javadoc)
 	 * 

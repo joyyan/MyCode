@@ -11,7 +11,7 @@ import static util.Print.*;
  * studycode.chapter8.Triangle
  * @author YanGJ create at 2014年6月1日 上午10:29:25
  */
-public class Triangle implements Shape {
+public class Triangle extends Shape {
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -30,14 +30,5 @@ public class Triangle implements Shape {
 	@Override
 	public void erase() {
 		print("Triangle.erase()");
-	}
-
-	/* (non-Javadoc)
-	 * @see studycode.chapter8.Shape#change()
-	 */
-	@Override
-	public void change() {
-		// TODO Auto-generated method stub
-		
 	}
 }

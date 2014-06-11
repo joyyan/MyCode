@@ -12,12 +12,17 @@ import util.Print;
  * 
  * @author YanGJ create at 2014年6月1日 上午10:25:40
  */
-interface Shape {
+public class Shape {
 
-	public abstract void draw();
+	public void draw() {
+	}
 
-	public abstract void erase();
+	public void erase() {
 
-	abstract void change();
+	}
+
+	private void change() {
+		Print.print("Shape.change()");
+	}
 
 }

@@ -12,7 +12,7 @@ import static util.Print.*;
  * 
  * @author YanGJ create at 2014年6月1日 上午10:28:12
  */
-public class Circle implements Shape {
+public class Circle extends Shape {
 	/*
 	 * (non-Javadoc)
 	 * 
@@ -31,14 +31,5 @@ public class Circle implements Shape {
 	@Override
 	public void erase() {
 		print("Circle.erase()");
-	}
-
-	/* (non-Javadoc)
-	 * @see studycode.chapter8.Shape#change()
-	 */
-	@Override
-	public void change() {
-		// TODO Auto-generated method stub
-		
 	}
 }
