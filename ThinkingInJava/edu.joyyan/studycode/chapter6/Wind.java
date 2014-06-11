@@ -12,8 +12,9 @@ import util.Print;
  * 
  * @author YanGJ create at 2014年5月30日 上午11:05:09
  */
-public class Wind extends Instrument {
+public class Wind extends Instrument2 {
 
+	private int i = 1;
 	/**
 	 * @param args
 	 */
@@ -22,13 +23,31 @@ public class Wind extends Instrument {
 		Instrument.tune(flute);
 
 	}
-
+	/* (non-Javadoc)
+	 * @see studycode.chapter6.Instrument2#play()
+	 */
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		super.play();
+	}
 }
 
-class Instrument {
+
+class Instrument2 extends Instrument{
+
+	/* (non-Javadoc)
+	 * @see studycode.chapter6.Instrument#play()
+	 */
+	@Override
 	public void play() {
-		Print.print("Instrument play");
+		// TODO Auto-generated method stub
+		
 	}
+	
+}
+abstract class Instrument {
+	public abstract void play();
 
 	static void tune(Instrument instrument) {
 		Print.print("Instrument tune");
