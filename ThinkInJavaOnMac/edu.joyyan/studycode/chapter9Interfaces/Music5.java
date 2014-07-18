@@ -95,7 +95,7 @@ public class Music5 {
 	}
 	static void tuneAll(Instrument[] e) {
 		for(Instrument i :e) {
-			tune(i);
+			tune(i);	
 		}
 	}
 	public static void main(String[] args) {
